@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "hun-ren"
+version = "0.1.0"
+description = ""
+authors = [Orsolya Putz"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+huspacy = "^0.11.0"
+altair = "^5.4.1"
+pandas = "^2.2.3"
+llvmlite = "^0.43.0"
+bertopic = "^0.16.4"
+numpy = "2.0.0"
+spacy = "^3.8.3"
+nltk = "^3.9.1"
+mplcursors = "^0.6"
+hfst = "^3.16.0.1"
+requests = "^2.32.3"
+textacy = "^0.13.0"
+rake-nltk = "^1.0.6"
+networkx = "^3.4.2"
+community = "^1.0.0b1"
+python-louvain = "^0.16"
+statsmodels = "^0.14.4"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
